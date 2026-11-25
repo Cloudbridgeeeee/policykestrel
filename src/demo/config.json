@@ -1,0 +1,191 @@
+{
+  "name": "PolicyKestrel",
+  "primary": "Request a review",
+  "accent": "#1a4be0",
+  "ink": "#111111",
+  "bg": "#ffffff",
+  "surface": "#f4f4f4",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..700&family=DM+Mono:wght@400;500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Instrument Sans\", system-ui, sans-serif",
+  "fontText": "\"Instrument Sans\", system-ui, sans-serif",
+  "client": "Lawal & Partners brokerage",
+  "note": "Fixed policy documents. Comparisons here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Renewals",
+    "records": "Documents",
+    "queue": "Changes to review"
+  },
+  "overview": {
+    "title": "Renewals this quarter",
+    "kpis": [
+      [
+        "Policies compared",
+        "37"
+      ],
+      [
+        "Changed clauses",
+        "61"
+      ],
+      [
+        "New exclusions",
+        "9"
+      ],
+      [
+        "Reports sent",
+        "22"
+      ]
+    ],
+    "chart": {
+      "title": "Changed clauses per client renewal",
+      "labels": [
+        "AF",
+        "HF",
+        "LT",
+        "OM",
+        "ZS",
+        "NC",
+        "AB",
+        "KC",
+        "EP",
+        "DL"
+      ],
+      "values": [
+        5,
+        2,
+        7,
+        1,
+        0,
+        3,
+        6,
+        0,
+        2,
+        4
+      ],
+      "threshold": 4,
+      "thresholdLabel": "Partner review over 4",
+      "caption": "Renewals above the line go to a partner before the client report is sent."
+    }
+  },
+  "records": {
+    "title": "Policy documents",
+    "searchHint": "Client or policy",
+    "statusCol": 3,
+    "columns": [
+      "Client",
+      "Policy",
+      "Pages",
+      "Status",
+      "Changes",
+      "Received"
+    ],
+    "tones": {
+      "To review": "warn",
+      "New exclusion": "bad",
+      "Sent": "good"
+    },
+    "rows": [
+      [
+        "Adeyemi Foods",
+        "Property renewal",
+        "66",
+        "New exclusion",
+        "5",
+        "1 Dec"
+      ],
+      [
+        "Harbour Freight",
+        "Marine cargo",
+        "48",
+        "New exclusion",
+        "2",
+        "1 Dec"
+      ],
+      [
+        "Lekki Textiles",
+        "Fire and allied perils",
+        "52",
+        "To review",
+        "7",
+        "30 Nov"
+      ],
+      [
+        "Obi Motors",
+        "Motor fleet",
+        "31",
+        "To review",
+        "1",
+        "29 Nov"
+      ],
+      [
+        "Ikoyi Schools",
+        "Public liability",
+        "24",
+        "Sent",
+        "0",
+        "28 Nov"
+      ],
+      [
+        "Nnamdi Clinics",
+        "Medical malpractice",
+        "40",
+        "To review",
+        "3",
+        "28 Nov"
+      ],
+      [
+        "Abuja Bottling",
+        "Business interruption",
+        "58",
+        "To review",
+        "6",
+        "27 Nov"
+      ],
+      [
+        "Kano Cotton",
+        "Goods in transit",
+        "19",
+        "Sent",
+        "0",
+        "26 Nov"
+      ],
+      [
+        "Eko Pharmacy",
+        "Stock cover",
+        "27",
+        "Sent",
+        "2",
+        "25 Nov"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Changes waiting for broker sign-off",
+    "lead": "Each change quotes both wordings. Nothing reaches a client until a broker approves it.",
+    "items": [
+      {
+        "id": "af-flood",
+        "title": "Flood limit lowered, Adeyemi Foods",
+        "detail": "Property renewal, Section 1.4.",
+        "reason": "Expiring ₦300,000,000; renewal ₦150,000,000."
+      },
+      {
+        "id": "af-cyber",
+        "title": "New cyber exclusion, Adeyemi Foods",
+        "detail": "Property renewal, Exclusion 7.",
+        "reason": "No cyber exclusion in the expiring policy."
+      },
+      {
+        "id": "hf-war",
+        "title": "War and strikes wording changed, Harbour Freight",
+        "detail": "Marine cargo, Clause 12.",
+        "reason": "Renewal removes cover for goods held at port after 30 days."
+      },
+      {
+        "id": "lt-excess",
+        "title": "Excess raised, Lekki Textiles",
+        "detail": "Fire and allied perils, Schedule.",
+        "reason": "Excess rises from ₦1,000,000 to ₦2,000,000 each claim."
+      }
+    ]
+  }
+}

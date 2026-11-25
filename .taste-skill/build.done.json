@@ -1,0 +1,11 @@
+{
+ "page": "dist/index.html",
+ "dir": "/home/user/policykestrel",
+ "kind": "software",
+ "start": "2026-11-25T02:21:52.402Z",
+ "by": "start.mjs",
+ "url": null,
+ "root": "dist",
+ "category": "insurance policy comparison software",
+ "primary": "Request a policy review"
+}
